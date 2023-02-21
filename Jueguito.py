@@ -18,7 +18,16 @@ def comparador(posicion_Player1):
             print("Perdiste")
         else:
             print("Ganaste")
+
+    
     return
 
+
+print("** Piedra, Papel O Tijeras")
+
 while True:
+    print("Elije entre las 3 opciones")
+    print("1. Piedra")
+    print("2. Papel")
+    print("3. Tijeras")
     comparador(int(input("Inserte su opcion: ")))
